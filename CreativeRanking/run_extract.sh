@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python VAM/test.py --test-list-file=data/test_data_list.txt --image-folder=/disk6/shiyao.wsy/www/images --batch-size=256 --resume=weights/vam_model_epoch_2.pkl --save-file=extracted_feat/extract_feat_and_score.txt
